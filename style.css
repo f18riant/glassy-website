@@ -192,4 +192,20 @@ main {
     background: linear-gradient(to right top, #65dfc9, #6cdbeb);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+
 }
+
+.card:hover {
+    transform: translateX(10px);
+    transition: 0.5s;
+    box-shadow: 6px 6px 20px rgba(120, 122, 119, 0.612);
+}
+
+.pro:hover {
+    transform: translateY(5px);
+    transition: 0.5s;
+    box-shadow: 6px 6px 20px rgba(115, 115, 117, 0.200);
+}
+
+ 
+
